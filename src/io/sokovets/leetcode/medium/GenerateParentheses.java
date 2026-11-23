@@ -103,4 +103,15 @@ public class GenerateParentheses {
     return result;
   }
 
+//  @GetMapping
+//  private ResponseEntity<List<CashCard>> findAll(Pageable pageable) {
+//    Page<CashCard> page = cashCardRepository.findAll(
+//        PageRequest.of(
+//            pageable.getPageNumber(),
+//            pageable.getPageSize(),
+//            pageable.getSortOr(Sort.by(Sort.Direction.DESC, "amount"))));
+//    return ResponseEntity.ok(page.getContent());
+//  }
+
+
 }
